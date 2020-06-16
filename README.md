@@ -1,5 +1,5 @@
 # Budget Trackers
-This is a Budget Tracking application that keeps track of dithdrawals and deposits even when the user cannot connect to the internet. 
+This is a Budget Tracking application that keeps track of withdrawals and deposits even when the user cannot connect to the internet. 
 
 Offline Functionality:
 
