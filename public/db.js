@@ -8,8 +8,6 @@ request.onupgradeneeded = function(event) {
 
 request.onsuccess = function(event) {
   db = event.target.result;
-
-  // check if app is online before reading from db
   if (navigator.onLine) {
     checkDatabase();
   }
@@ -50,7 +48,7 @@ function checkDatabase() {
         });
     }
   };
-}
+};
 
 // listen for app coming back online
 window.addEventListener("online", checkDatabase);
